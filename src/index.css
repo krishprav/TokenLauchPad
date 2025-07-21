@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body{
+  margin: 0;
+}
+
+@keyframes blast-off {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.2); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+.animate-blast-off {
+  animation: blast-off 1.5s infinite;
+}
